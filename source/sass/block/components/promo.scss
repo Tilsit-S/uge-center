@@ -1,10 +1,23 @@
 .promo {
-    margin-top: 100px;
+    margin-top: 106px;
+    padding-top: 50px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 
     &__symbol {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        border: 2px solid black;
+        border-radius: 33px;
+        padding: 10px;
+        background-color: $white;
+        overflow: hidden;
+        width: 810px;
     }
 
     &__picture {
@@ -24,6 +37,7 @@
     }
 
     &__description {
+        width: 365px;
         font-weight: 800;
         font-size: 38px;
         align-items: center;
