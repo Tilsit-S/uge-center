@@ -1,6 +1,6 @@
 .promo {
     margin-top: 106px;
-    padding-top: 50px;
+    padding: 50px 0;
 
     &__wrapper {
         display: flex;
@@ -12,8 +12,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border: 2px solid black;
-        border-radius: 33px;
+        border: 1px solid #868686;
+        border-radius: 6px;
         padding: 10px;
         background-color: $white;
         overflow: hidden;
@@ -40,12 +40,18 @@
         width: 365px;
         font-weight: 800;
         font-size: 38px;
+        line-height: 50px;
         align-items: center;
         color: #877e7e;
 
         .red-text {
             color: red;
             text-transform: uppercase;
+        }
+
+        .uppercase {
+            font-size: 46px;
+            color: #515557;
         }
     }
 }

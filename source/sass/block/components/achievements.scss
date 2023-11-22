@@ -1,0 +1,33 @@
+.achievements {
+
+    &__title {
+        font-size: 42px;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+    
+    &__max {
+        display: inline-block;
+        width: auto;
+        height: 65px;
+        background-color: #f7b965;
+        padding: 5px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #868686;
+        border-radius: 6px;
+        padding: 10px;
+        background-color: $white;
+    }
+}
