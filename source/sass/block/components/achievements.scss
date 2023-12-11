@@ -91,13 +91,32 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        width: 300px;
+        width: 280px;
         height: 400px;
         background-color: $white;
         border-radius: 33px;
+        cursor: pointer;
     }
 
     &__features-description {
-        
+        position: relative;
+        padding: 5px 15px 20px 15px;
+
+        &::after {
+            position: absolute;
+            top: -80px;
+            right: 10px;
+            display: block;
+            content: '';
+            width: 70px;
+            height: 70px;
+            border: 5px solid #e8325c;
+            border-radius: 50%;
+            background-image: url('../img/main/hand.svg');
+            background-size: 40px 40px;
+            background-position: 12px 8px;
+            background-repeat: no-repeat;
+            background-color: $white;
+        }
     }
 }
