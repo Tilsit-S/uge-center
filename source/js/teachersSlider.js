@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $('.teachers__slider').slick({
         arrows: true,
-        dots: true,
-        variableWidth: false,
+        dots: false,
+        variableWidth: true,
         adaptiveHeight: true,
+        infinite: false,
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [

@@ -18,7 +18,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 30px;
-        margin-bottom: 70px;
+        margin-bottom: 150px;
     }
 
     .item {
@@ -72,10 +72,7 @@
     }
 
     &__second-title {
-        font-size: 42px;
-        line-height: normal;
         text-align: center;
-        margin-bottom: 50px;
     }
 
     &__features {
@@ -92,7 +89,7 @@
         justify-content: flex-start;
         align-items: center;
         width: 280px;
-        height: 400px;
+        height: auto;
         background-color: $white;
         border-radius: 33px;
         cursor: pointer;
