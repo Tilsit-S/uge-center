@@ -30,3 +30,5 @@
     burgerButton.addEventListener("click", onBurgerButtonClick);
     closeBurgerBtn.addEventListener("click", closeMenu);
 })();
+
+// Карточка учителя

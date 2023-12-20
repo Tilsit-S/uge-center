@@ -1,10 +1,14 @@
 .teachers {
 
+    &__wrapper {
+        margin-bottom: 150px;
+    }
+
     /* -------------------------------Слайдер--------------------------------- */
     .slick-slider{
         position: relative;
         height: 100%;
-        margin: 0 160px;
+        margin: 0 120px;
 
         @media (max-width: 1400px) {
             margin: 0 100px;
@@ -60,18 +64,34 @@
     /* Стрелка */
     .slick-arrow{
         position: absolute;
+        bottom: -30px;
+        display: block;
+        width: 40px;
+        height: 40px;
+        font-size: 0;
+        border: none;
+        background-color: $black;
+        border-radius: 50%;
+        cursor: pointer;
     }
 
     /* Стрелка влево */
     .slick-arrow.slick-prev{
-        bottom: 0;
         left: 50%;
+        background-image: url("../img/main/teachers/arrow.svg");
+        background-repeat: no-repeat;
+        background-size: 35px 35px;
+        background-position: center;
+        transform: rotate(180deg);
     }
 
     /* Стрелка вправо */
     .slick-arrow.slick-next{
-        bottom: 0;
-        left: 60%;
+        left: 57%;
+        background-image: url("../img/main/teachers/arrow.svg");
+        background-repeat: no-repeat;
+        background-size: 35px 35px;
+        background-position: center;
     }
 
     /* Стрелка не активная */
