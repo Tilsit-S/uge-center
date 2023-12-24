@@ -1,0 +1,59 @@
+.faq {
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: $white;
+        border-radius: 14px;
+        padding: 20px;
+    }
+
+    &__title {
+        width: 400px;
+        margin-right: 20px;
+        padding: 50px 0 0 50px;
+    }
+
+    &__list {
+        width: 820px;
+        padding: 15px 10px;
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        .item {
+            &__link {
+                display: block;
+                width: 100%;
+                padding: 10px 25px;
+                font-size: 28px;
+                line-height: normal;
+                background-color: #888df0;
+                border-radius: 14px;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+
+            &__text-wrapper {
+                display: none;
+                margin-top: 20px;
+                padding: 5px 30px;
+            }
+
+            &__text {
+                font-size: 18px;
+                line-height: normal;
+            }
+
+            &__placeholder-input:checked ~ .item__text-wrapper {
+                display: block;
+            }
+        }
+    }
+}

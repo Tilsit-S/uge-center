@@ -48,7 +48,7 @@ var modalController = ({modal, openBtn, closeBtn, time = 300}) => {     //опр
     closeBtn: '.modal__close',
   });
   
-  /*modalController({
+  modalController({
     modal: '.modal-2',
     openBtn: '.modal-button-2',
     closeBtn: '.modal__close',
@@ -58,4 +58,28 @@ var modalController = ({modal, openBtn, closeBtn, time = 300}) => {     //опр
     modal: '.modal-3',
     openBtn: '.modal-button-3',
     closeBtn: '.modal__close',
-  });*/
+  });
+
+  modalController({
+    modal: '.modal-4',
+    openBtn: '.modal-button-4',
+    closeBtn: '.modal__close',
+  });
+
+  modalController({
+    modal: '.modal-5',
+    openBtn: '.modal-button-5',
+    closeBtn: '.modal__close',
+  });
+
+  modalController({
+    modal: '.modal-6',
+    openBtn: '.modal-button-6',
+    closeBtn: '.modal__close',
+  });
+
+  modalController({
+    modal: '.modal-7',
+    openBtn: '.modal-button-7',
+    closeBtn: '.modal__close',
+  });

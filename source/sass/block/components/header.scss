@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #e8e8ff;
     z-index: 3;
 
     &__not-main {
@@ -20,6 +20,8 @@
             display: flex;
             width: 385px;
             align-items: center;
+            background-color: $white;
+            border-radius: 14px;
         }
         
     }

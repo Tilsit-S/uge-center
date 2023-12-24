@@ -3,8 +3,9 @@
 // components
 
 @import "block/components/header.scss", "block/components/promo.scss", "block/components/footer.scss",
-        "block/components/achievements.scss", "block/components/teachers.scss";
+        "block/components/achievements.scss", "block/components/teachers.scss", "block/components/faq.scss",
+        "block/components/footer.scss";
 
 // subcomponents
 
-@import "block/subcomponents/card.scss";
+@import "block/subcomponents/card.scss", "block/subcomponents/feedback.scss";
