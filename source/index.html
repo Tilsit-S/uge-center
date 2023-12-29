@@ -16,10 +16,28 @@
 
                     <div class="contacts__title">
                         <div class="contacts__logo">
-                            <img src="img/header/logo.jpg" alt="center-logo" width="70" height="70">
+                            <img src="img/header/logo.png" alt="center-logo" width="70" height="70">
                         </div>
                         <p class="contacts__index">Центр довузовской подготовки к ЕГЭ и ОГЭ</p>
                     </div>
+
+                    <ul class="contacts__navigation">
+                        <li class="contacts__item">
+                            <a href="#promo">Promo</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="#features">Features</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="#teachers">Our consults</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="#faq">FAQ</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="#footer">Footer</a>
+                        </li>
+                    </ul>
 
                     <div class="contacts__lead">
 
@@ -35,7 +53,7 @@
 
         <main class="page-main main">
 
-            <section class="main__promo promo">
+            <section class="main__promo promo" id="promo">
                 <div class="promo__wrapper container">
                     <div class="promo__symbol">
                         <div class="promo__picture">
@@ -47,7 +65,7 @@
                 </div>
             </section>
 
-            <section class="main__achievements achievements">
+            <section class="main__achievements achievements" id="features">
                 <div class="achievements__wrapper container">
                     <h2>Подготовься к ЕГЭ и ОГЭ на <span class="achievements__max">максимум</span></h2>
                     <ul class="achievements__list">
@@ -77,7 +95,7 @@
                         </li>
                         <li class="achievements__item item">
                             <div class="item__logo">
-                                <img src="img/header/logo.jpg" alt="center-logo" width="70" height="70">
+                                <img src="img/header/logo.png" alt="center-logo" width="70" height="70">
                             </div>
                             <p class="item__index">Центр довузовской подготовки к ЕГЭ и ОГЭ</p>
                         </li>
@@ -112,56 +130,66 @@
                 </div>
             </section>
             
-            <section class="main__teachers teachers">
+            <section class="main__teachers teachers" id="teachers">
                 <div class="teachers__wrapper container">
-                    <h2>Наши <span class="achievements__max">преподаватели</span></h2>
+                    <h2>Наши <span class="achievements__max">консультанты</span></h2>
                     
                     <ul class="teachers__list">
 
                         <li class="teachers__item">
                             <div class="card">
-                                <div class="card__wrapper">
-                                    <h3 class="card__title">Иван Иванов</h3>
+                                <div class="card__info-wrapper">
+                                    <h3 class="card__title">Чебаков Алексей</h3>
                                     <div class="card__type-of-teach">
                                         <p class="card__tag">ЕГЭ</p>
-                                        <p class="card__tag">Русский Язык</p>
+                                        <p class="card__tag">ОГЭ</p>
+                                        <p class="card__tag">Физика</p>
+                                        <p class="card__tag">Математика</p>
+                                        <p class="card__tag">Информатика</p>
                                     </div>
                                     <div class="card__image-wrapper">
                                         <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
                                     </div>
-                                    <button class="card__modal-button modal-button-1">Подробнее</button>
                                 </div>
+                                <button class="card__modal-button modal-button-1">Подробнее</button>
                                 
                                 <div class="card__modal modal modal-1">
                                     <div class="modal__wrapper">
                                         <div class="modal__content">
-                                            <div class="modal__image-wrapper">
+                                            <div class="modal__image-modal-wrapper">
                                                 <img src="img/main/teachers/pic.png" alt="picture of teacher">
                                             </div>
                                             <div class="modal__info">
-                                                <h3 class="modal__username">Иван Иванов - <span class="small-text">консультант курса</span></h3>
+                                                <h3 class="modal__username">Чебаков Алексей Андреевич - <span class="small-text">консультант курса. Опыт с 2011 года</span></h3>
                                                 <ul class="modal__list">
                                                     <li class="modal__item">
-                                                        <p>КФУ, Информационная безопасность</p>
+                                                        <p>&#9989; &nbsp; В 2003 году закончил Обнинский государственный технический университет атомной энергетики, инженер-физик.</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Получаю американское образование в Montgomery College</p>
+                                                        <p>&#9989; &nbsp; В 2021 году закончил магистратуру Московского педагогического государственного университета, теория и методика преподавания геометрии в образовательных организациях.</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Преподаю математику 11 лет </p>
+                                                        <p>&#9989; &nbsp; Лауреат фонда «Династия». Магистр педагогических наук.</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Обожаю решать и показывать решения задач (особенно геометрия и параметры)</p>
+                                                        <p>&#9989; &nbsp; Имеет высшую квалификационную категорию.</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Опыт работы: работает в ГБУ КО ПОО «Технологический колледж» с 2011 года, в АНПОО «Калининградский колледж управления» с 2021 года. Работает в ЦДП «МОИ» с 2014 года.</p>
                                                     </li>
                                                 </ul>
-                                                <p class="modal__slogan">Для меня важны результаты, так что я всегда готов задержаться на вебинаре или провести дополнительный, если вижу, что это нужно моим ученикам</p>
+                                                <p class="modal__slogan">&#128073; &nbsp; &#10077; Немногие из нас знают, как много надо знать, для того чтобы знать, как много мы не знаем. &#10078;</p>
                                                 <div class="modal__achievements-wrapper">
                                                     <div class="modal__excellent">
-                                                        <p class="modal__number">17</p>
-                                                        <p class="modal__description">стобальников</p>
+                                                        <p class="modal__number">> 100</p>
+                                                        <p class="modal__description">подготовил более 100 учеников 9 и 11 классов.</p>
                                                     </div>
-                                                    <div class="modal__middle">
-                                                        <p class="modal__number">666</p>
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">92</p>
+                                                        <p class="modal__description">максимальный балл</p>
+                                                    </div>
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">52</p>
                                                         <p class="modal__description">сдали на 90+</p>
                                                     </div>
                                                 </div>
@@ -179,109 +207,124 @@
 
                         <li class="teachers__item">
                             <div class="card">
-                                <div class="card__wrapper">
-                                    <h3 class="card__title">Пётр Петров</h3>
+                                <div class="card__info-wrapper">
+                                    <h3 class="card__title">Липскус Галина</h3>
                                     <div class="card__type-of-teach">
                                         <p class="card__tag">ЕГЭ</p>
+                                        <p class="card__tag">ОГЭ</p>
                                         <p class="card__tag">математика</p>
+                                    </div>
+                                    <div class="card__image-wrapper">
+                                        <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
+                                    </div>
+                                </div>
+                                <button class="card__modal-button modal-button-2">Подробнее</button>
+                                
+                                <div class="card__modal modal modal-2">
+                                    <div class="modal__wrapper">
+                                        <div class="modal__content">
+                                            <div class="modal__image-modal-wrapper">
+                                                <img src="img/main/teachers/pic.png" alt="picture of teacher">
+                                            </div>
+                                            <div class="modal__info">
+                                                <h3 class="modal__username">Липскус Галина Ивановна - <span class="small-text">консультант курса. Опыт с 1972 года</span></h3>
+                                                <ul class="modal__list">
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Подготовка к ЕГЭ/ОГЭ 2000 года</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; В 1971 году закончила Магаданский педагогический институт, по специальности «учитель математики средней школы»</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Отличник народного просвещения</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Имеет высшую квалификационную категорию Учитель-методист</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Вела ВЗМШ при МГУ им. М.В. Ломоносова с 1973 года</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Работает в ЦДП «МОИ» с 2014 года</p>
+                                                    </li>
+                                                </ul>
+                                                <p class="modal__slogan">&#128073; &nbsp; &#10077; Математика – царица всех наук &#10077;</p>
+                                                <div class="modal__achievements-wrapper">
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">>10000</p>
+                                                        <p class="modal__description">подготовила более 10000 учеников 9 и 11 классов</p>
+                                                    </div>
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">>1200</p>
+                                                        <p class="modal__description">сдавших на 90+ баллов</p>
+                                                    </div>
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">92</p>
+                                                        <p class="modal__description">Максимальный балл по ЕГЭ</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal__button-wrapper">
+                                                    <button class="modal__close">Закрыть</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        
+                        <li class="teachers__item">
+                            <div class="card">
+                                <div class="card__info-wrapper">
+                                    <h3 class="card__title">Готовка Зоя</h3>
+                                    <div class="card__type-of-teach">
+                                        <p class="card__tag">ЕГЭ</p>
+                                        <p class="card__tag">ОГЭ</p>
                                         <p class="card__tag">Физика</p>
                                     </div>
                                     <div class="card__image-wrapper">
                                         <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
                                     </div>
-                                    <button class="card__modal-button modal-button-2">Подробнее</button>
                                 </div>
-                                
-                                <div class="card__modal modal modal-2">
-                                    <div class="modal__wrapper">
-                                        <div class="modal__content">
-                                            <div class="modal__image-wrapper">
-                                                <img src="img/main/teachers/pic.png" alt="picture of teacher">
-                                            </div>
-                                            <div class="modal__info">
-                                                <h3 class="modal__username">Пётр Петров - <span class="small-text">консультант курса</span></h3>
-                                                <ul class="modal__list">
-                                                    <li class="modal__item">
-                                                        <p>КФУ, Информационная безопасность</p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Получаю американское образование в Montgomery College</p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Преподаю математику 11 лет </p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Обожаю решать и показывать решения задач (особенно геометрия и параметры)</p>
-                                                    </li>
-                                                </ul>
-                                                <p class="modal__slogan">Для меня важны результаты, так что я всегда готов задержаться на вебинаре или провести дополнительный, если вижу, что это нужно моим ученикам</p>
-                                                <div class="modal__achievements-wrapper">
-                                                    <div class="modal__excellent">
-                                                        <p class="modal__number">17</p>
-                                                        <p class="modal__description">стобальников</p>
-                                                    </div>
-                                                    <div class="modal__middle">
-                                                        <p class="modal__number">666</p>
-                                                        <p class="modal__description">сдали на 90+</p>
-                                                    </div>
-                                                </div>
-                                                <div class="modal__button-wrapper">
-                                                    <button class="modal__close">Закрыть</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </li>
-                        
-                        <li class="teachers__item">
-                            <div class="card">
-                                <div class="card__wrapper">
-                                    <h3 class="card__title">Name Surname</h3>
-                                    <div class="card__type-of-teach">
-                                        <p class="card__tag">ЕГЭ</p>
-                                        <p class="card__tag">История</p>
-                                    </div>
-                                    <div class="card__image-wrapper">
-                                        <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
-                                    </div>
-                                    <button class="card__modal-button modal-button-3">Подробнее</button>
-                                </div>
+                                <button class="card__modal-button modal-button-3">Подробнее</button>
                                 
                                 <div class="card__modal modal modal-3">
                                     <div class="modal__wrapper">
                                         <div class="modal__content">
-                                            <div class="modal__image-wrapper">
+                                            <div class="modal__image-modal-wrapper">
                                                 <img src="img/main/teachers/pic.png" alt="picture of teacher">
                                             </div>
                                             <div class="modal__info">
-                                                <h3 class="modal__username">Name Surname - <span class="small-text">консультант курса</span></h3>
+                                                <h3 class="modal__username">Готовка Зоя Романовна - <span class="small-text">консультант курса. Опыт работы с 2010 года</span></h3>
                                                 <ul class="modal__list">
                                                     <li class="modal__item">
-                                                        <p>КФУ, Информационная безопасность</p>
+                                                        <p>&#9989; &nbsp; В 1977 закончила Калининградский государственный университет по специальности «физика», факультет физико-математический</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Получаю американское образование в Montgomery College</p>
+                                                        <p>&#9989; &nbsp; Имеет первую квалификационную категорию</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Преподаю математику 11 лет </p>
+                                                        <p>&#9989; &nbsp; Опыт работы преподавателем более 17 лет</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Обожаю решать и показывать решения задач (особенно геометрия и параметры)</p>
+                                                        <p>&#9989; &nbsp; Работает в ЦДП «МОИ» с 2018 года</p>
                                                     </li>
                                                 </ul>
-                                                <p class="modal__slogan">Для меня важны результаты, так что я всегда готов задержаться на вебинаре или провести дополнительный, если вижу, что это нужно моим ученикам</p>
+                                                <p class="modal__slogan">&#128073; &nbsp; &#10077; Сделать физику более доступной для всех &#10077;</p>
                                                 <div class="modal__achievements-wrapper">
                                                     <div class="modal__excellent">
-                                                        <p class="modal__number">17</p>
-                                                        <p class="modal__description">стобальников</p>
+                                                        <p class="modal__number">>700</p>
+                                                        <p class="modal__description">учеников 9 и 11 классов.</p>
                                                     </div>
-                                                    <div class="modal__middle">
-                                                        <p class="modal__number">666</p>
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">300</p>
                                                         <p class="modal__description">сдали на 90+</p>
+                                                    </div>
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">98</p>
+                                                        <p class="modal__description">максимальный балл по ЕГЭ</p>
                                                     </div>
                                                 </div>
                                                 <div class="modal__button-wrapper">
@@ -298,220 +341,107 @@
                         
                         <li class="teachers__item">
                             <div class="card">
-                                <div class="card__wrapper">
-                                    <h3 class="card__title">Мария Петровна</h3>
+                                <div class="card__info-wrapper">
+                                    <h3 class="card__title">Маркова Ирина</h3>
                                     <div class="card__type-of-teach">
                                         <p class="card__tag">ЕГЭ</p>
-                                        <p class="card__tag">Биология</p>
-                                        <p class="card__tag">Обществознание</p>
-                                    </div>
-                                    <div class="card__image-wrapper">
-                                        <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
-                                    </div>
-                                    <button class="card__modal-button modal-button-4">Подробнее</button>
-                                </div>
-
-                                
-                                <div class="card__modal modal modal-4">
-                                    <div class="modal__wrapper">
-                                        <div class="modal__content">
-                                            <div class="modal__image-wrapper">
-                                                <img src="img/main/teachers/pic.png" alt="picture of teacher">
-                                            </div>
-                                            <div class="modal__info">
-                                                <h3 class="modal__username">Мария Петровна - <span class="small-text">консультант курса</span></h3>
-                                                <ul class="modal__list">
-                                                    <li class="modal__item">
-                                                        <p>КФУ, Информационная безопасность</p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Получаю американское образование в Montgomery College</p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Преподаю математику 11 лет </p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Обожаю решать и показывать решения задач (особенно геометрия и параметры)</p>
-                                                    </li>
-                                                </ul>
-                                                <p class="modal__slogan">Для меня важны результаты, так что я всегда готов задержаться на вебинаре или провести дополнительный, если вижу, что это нужно моим ученикам</p>
-                                                <div class="modal__achievements-wrapper">
-                                                    <div class="modal__excellent">
-                                                        <p class="modal__number">17</p>
-                                                        <p class="modal__description">стобальников</p>
-                                                    </div>
-                                                    <div class="modal__middle">
-                                                        <p class="modal__number">666</p>
-                                                        <p class="modal__description">сдали на 90+</p>
-                                                    </div>
-                                                </div>
-                                                <div class="modal__button-wrapper">
-                                                    <button class="modal__close">Закрыть</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </li>
-                        
-                        <li class="teachers__item">
-                            <div class="card">
-                                <div class="card__wrapper">
-                                    <h3 class="card__title">Name Surname</h3>
-                                    <div class="card__type-of-teach">
-                                        <p class="card__tag">ЕГЭ</p>
-                                        <p class="card__tag">Химия</p>
-                                    </div>
-                                    <div class="card__image-wrapper">
-                                        <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
-                                    </div>
-                                    <button class="card__modal-button modal-button-5">Подробнее</button>
-                                </div>
-                                
-                                <div class="card__modal modal modal-5">
-                                    <div class="modal__wrapper">
-                                        <div class="modal__content">
-                                            <div class="modal__image-wrapper">
-                                                <img src="img/main/teachers/pic.png" alt="picture of teacher">
-                                            </div>
-                                            <div class="modal__info">
-                                                <h3 class="modal__username">Иван Иванов - <span class="small-text">консультант курса</span></h3>
-                                                <ul class="modal__list">
-                                                    <li class="modal__item">
-                                                        <p>КФУ, Информационная безопасность</p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Получаю американское образование в Montgomery College</p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Преподаю математику 11 лет </p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Обожаю решать и показывать решения задач (особенно геометрия и параметры)</p>
-                                                    </li>
-                                                </ul>
-                                                <p class="modal__slogan">Для меня важны результаты, так что я всегда готов задержаться на вебинаре или провести дополнительный, если вижу, что это нужно моим ученикам</p>
-                                                <div class="modal__achievements-wrapper">
-                                                    <div class="modal__excellent">
-                                                        <p class="modal__number">17</p>
-                                                        <p class="modal__description">стобальников</p>
-                                                    </div>
-                                                    <div class="modal__middle">
-                                                        <p class="modal__number">666</p>
-                                                        <p class="modal__description">сдали на 90+</p>
-                                                    </div>
-                                                </div>
-                                                <div class="modal__button-wrapper">
-                                                    <button class="modal__close">Закрыть</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </li>
-                        
-                        <li class="teachers__item">
-                            <div class="card">
-                                <div class="card__wrapper">
-                                    <h3 class="card__title">Name Surname</h3>
-                                    <div class="card__type-of-teach">
-                                        <p class="card__tag">ЕГЭ</p>
-                                        <p class="card__tag">Английский Язык</p>
-                                    </div>
-                                    <div class="card__image-wrapper">
-                                        <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
-                                    </div>
-                                    <button class="card__modal-button modal-button-6">Подробнее</button>
-                                </div>
-                                
-                                <div class="card__modal modal modal-6">
-                                    <div class="modal__wrapper">
-                                        <div class="modal__content">
-                                            <div class="modal__image-wrapper">
-                                                <img src="img/main/teachers/pic.png" alt="picture of teacher">
-                                            </div>
-                                            <div class="modal__info">
-                                                <h3 class="modal__username">Иван Иванов - <span class="small-text">консультант курса</span></h3>
-                                                <ul class="modal__list">
-                                                    <li class="modal__item">
-                                                        <p>КФУ, Информационная безопасность</p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Получаю американское образование в Montgomery College</p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Преподаю математику 11 лет </p>
-                                                    </li>
-                                                    <li class="modal__item">
-                                                        <p>Обожаю решать и показывать решения задач (особенно геометрия и параметры)</p>
-                                                    </li>
-                                                </ul>
-                                                <p class="modal__slogan">Для меня важны результаты, так что я всегда готов задержаться на вебинаре или провести дополнительный, если вижу, что это нужно моим ученикам</p>
-                                                <div class="modal__achievements-wrapper">
-                                                    <div class="modal__excellent">
-                                                        <p class="modal__number">17</p>
-                                                        <p class="modal__description">стобальников</p>
-                                                    </div>
-                                                    <div class="modal__middle">
-                                                        <p class="modal__number">666</p>
-                                                        <p class="modal__description">сдали на 90+</p>
-                                                    </div>
-                                                </div>
-                                                <div class="modal__button-wrapper">
-                                                    <button class="modal__close">Закрыть</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </li>
-
-                        <li class="teachers__item">
-                            <div class="card">
-                                <div class="card__wrapper">
-                                    <h3 class="card__title">Name Surname</h3>
-                                    <div class="card__type-of-teach">
-                                        <p class="card__tag">ЕГЭ</p>
+                                        <p class="card__tag">ОГЭ</p>
+                                        <p class="card__tag">Русский язык</p>
                                         <p class="card__tag">Литература</p>
                                     </div>
                                     <div class="card__image-wrapper">
                                         <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
                                     </div>
-                                    <button class="card__modal-button modal-button-7">Подробнее</button>
                                 </div>
+                                <button class="card__modal-button modal-button-4">Подробнее</button>
                                 
-                                <div class="card__modal modal modal-7">
+                                <div class="card__modal modal modal-4">
                                     <div class="modal__wrapper">
                                         <div class="modal__content">
-                                            <div class="modal__image-wrapper">
+                                            <div class="modal__image-modal-wrapper">
                                                 <img src="img/main/teachers/pic.png" alt="picture of teacher">
                                             </div>
                                             <div class="modal__info">
-                                                <h3 class="modal__username">Иван Иванов - <span class="small-text">консультант курса</span></h3>
+                                                <h3 class="modal__username">Маркова Ирина Петровна - <span class="small-text">консультант курса. Опыт работы по специальности с 1978 года.</span></h3>
                                                 <ul class="modal__list">
                                                     <li class="modal__item">
-                                                        <p>КФУ, Информационная безопасность</p>
+                                                        <p>&#9989; &nbsp; Подготовка к ЕГЭ/ОГЭ с 2002 года</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Получаю американское образование в Montgomery College</p>
+                                                        <p>&#9989; &nbsp; В 1978 году окончила Московский государственный педагогический институт им. В.И. Ленина.</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Преподаю математику 11 лет </p>
+                                                        <p>&#9989; &nbsp; Имеет первую квалификационную категорию</p>
                                                     </li>
                                                     <li class="modal__item">
-                                                        <p>Обожаю решать и показывать решения задач (особенно геометрия и параметры)</p>
+                                                        <p>&#9989; &nbsp; Опыт работы: В средней школе с 1978 года. В АНПОО «Калининградский колледж управления» с 2022 года. Работает в ЦДП «МОИ» с 2014 года</p>
                                                     </li>
                                                 </ul>
-                                                <p class="modal__slogan">Для меня важны результаты, так что я всегда готов задержаться на вебинаре или провести дополнительный, если вижу, что это нужно моим ученикам</p>
+                                                <p class="modal__slogan">&#128073; &nbsp; &#10077; Через тернии к звездам &#10077;</p>
+                                                <div class="modal__achievements-wrapper">
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">>1000</p>
+                                                        <p class="modal__description">выпускников</p>
+                                                    </div>
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">>700</p>
+                                                        <p class="modal__description">сдали на 90+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal__button-wrapper">
+                                                    <button class="modal__close">Закрыть</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        
+                        <li class="teachers__item">
+                            <div class="card">
+                                <div class="card__info-wrapper">
+                                    <h3 class="card__title">Демерецкене Надежда</h3>
+                                    <div class="card__type-of-teach">
+                                        <p class="card__tag">ЕГЭ</p>
+                                        <p class="card__tag">ОГЭ</p>
+                                        <p class="card__tag">Химия</p>
+                                        <p class="card__tag">Биология</p>
+                                    </div>
+                                    <div class="card__image-wrapper">
+                                        <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
+                                    </div>
+                                </div>
+                                <button class="card__modal-button modal-button-5">Подробнее</button>
+                                
+                                <div class="card__modal modal modal-5">
+                                    <div class="modal__wrapper">
+                                        <div class="modal__content">
+                                            <div class="modal__image-modal-wrapper">
+                                                <img src="img/main/teachers/pic.png" alt="picture of teacher">
+                                            </div>
+                                            <div class="modal__info">
+                                                <h3 class="modal__username">Демерецкене Надежда Суреновна - <span class="small-text">консультант курса</span></h3>
+                                                <ul class="modal__list">
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Опыт работы по специальности с 1987 года</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Подготовка к ЕГЭ/ОГЭ с 2002 года</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; В 1989 году окончила Оренбургский государственный педагогический университет</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Имеет высшую квалификационную категорию.</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Опыт работы: В средней школе с 1987 года. В АНПОО «Калининградский колледж управления» с 2022 года. Работает в ЦДП «МОИ» с 2014 года</p>
+                                                    </li>
+                                                </ul>
+                                                <p class="modal__slogan">&#128073; &nbsp; &#10077; Соблюдение принципов научности и доступности &#10077;</p>
                                                 <div class="modal__achievements-wrapper">
                                                     <div class="modal__excellent">
                                                         <p class="modal__number">17</p>
@@ -519,6 +449,67 @@
                                                     </div>
                                                     <div class="modal__middle">
                                                         <p class="modal__number">666</p>
+                                                        <p class="modal__description">сдали на 90+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal__button-wrapper">
+                                                    <button class="modal__close">Закрыть</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        
+                        <li class="teachers__item">
+                            <div class="card">
+                                <div class="card__info-wrapper">
+                                    <h3 class="card__title">Миронова Светлана</h3>
+                                    <div class="card__type-of-teach">
+                                        <p class="card__tag">ЕГЭ</p>
+                                        <p class="card__tag">ОГЭ</p>
+                                        <p class="card__tag">История</p>
+                                        <p class="card__tag">Обществознание</p>
+                                    </div>
+                                    <div class="card__image-wrapper">
+                                        <img src="img/main/teachers/pic.png" alt="picture of teacher" width="275" height="275">
+                                    </div>
+                                </div>
+                                <button class="card__modal-button modal-button-6">Подробнее</button>
+                                
+                                <div class="card__modal modal modal-6">
+                                    <div class="modal__wrapper">
+                                        <div class="modal__content">
+                                            <div class="modal__image-modal-wrapper">
+                                                <img src="img/main/teachers/pic.png" alt="picture of teacher">
+                                            </div>
+                                            <div class="modal__info">
+                                                <h3 class="modal__username">Миронова Светлана Владимировна - <span class="small-text">консультант курса. Опыт работы по специальности с ______ года</span></h3>
+                                                <ul class="modal__list">
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; КФУ, Информационная безопасность</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Получаю американское образование в Montgomery College</p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Преподаю математику 11 лет </p>
+                                                    </li>
+                                                    <li class="modal__item">
+                                                        <p>&#9989; &nbsp; Обожаю решать и показывать решения задач (особенно геометрия и параметры)</p>
+                                                    </li>
+                                                </ul>
+                                                <p class="modal__slogan">&#128073; &nbsp; &#10077; Для меня важны результаты, так что я всегда готов задержаться на вебинаре или провести дополнительный, если вижу, что это нужно моим ученикам &#10077;</p>
+                                                <div class="modal__achievements-wrapper">
+                                                    <div class="modal__excellent">
+                                                        <p class="modal__number">>999</p>
+                                                        <p class="modal__description">выпускников</p>
+                                                    </div>
+                                                    <div class="modal__middle">
+                                                        <p class="modal__number">>999</p>
                                                         <p class="modal__description">сдали на 90+</p>
                                                     </div>
                                                 </div>
@@ -536,82 +527,101 @@
 
                     </ul>
 
+                    <div class="teachers__reviews">
+                        <h3 class="teachers__reviews-title">Отзывы наших <span class="achievements__max">выпускников</span></h3>
 
+                        <div class="teachers__slider">
 
-                    
-                    <div class="teachers__slider">
-
-                        <div class="teachers__slide slide">
-                            <div class="feedback">
+                            <div class="teachers__slide slide">
                                 <div class="feedback">
-                                    <h3 class="feedback__title">Name Surname</h3>
-                                    <div class="feedback__type-of-teach">
-                                        <p class="feedback__tag">ЕГЭ</p>
-                                        <p class="feedback__tag">Русский Язык</p>
+                                    <div class="feedback">
+                                        <div class="feedback__image-wrapper">
+                                            <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
+                                        </div>
+                                        <div class="feedback__info-wrapper">
+                                            <h3 class="feedback__name">Name Surname</h3>
+                                            <p class="feedback__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi veritatis doloremque maiores repellendus! A, voluptas culpa accusantium laboriosam totam quasi.</p>    
+                                        </div>
                                     </div>
-                                    <div class="feedback__image-wrapper">
-                                        <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
-                                    </div>
-                                    <p class="feedback__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque culpa voluptatem dolorum quo officia consectetur quos, possimus quod vel eligendi totam mollitia ad maxime quae delectus rerum laudantium fugit.</p>
                                 </div>
                             </div>
+                            <div class="teachers__slide slide">
+                                <div class="feedback">
+                                    <div class="feedback">
+                                        <div class="feedback__image-wrapper">
+                                            <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
+                                        </div>
+                                        <div class="feedback__info-wrapper">
+                                            <h3 class="feedback__name">Name Surname</h3>
+                                            <p class="feedback__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi veritatis doloremque maiores repellendus! A, voluptas culpa accusantium laboriosam totam quasi.</p>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="teachers__slide slide">
+                                <div class="feedback">
+                                    <div class="feedback">
+                                        <div class="feedback__image-wrapper">
+                                            <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
+                                        </div>
+                                        <div class="feedback__info-wrapper">
+                                            <h3 class="feedback__name">Name Surname</h3>
+                                            <p class="feedback__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi veritatis doloremque maiores repellendus! A, voluptas culpa accusantium laboriosam totam quasi.</p>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="teachers__slide slide">
+                                <div class="feedback">
+                                    <div class="feedback">
+                                        <div class="feedback__image-wrapper">
+                                            <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
+                                        </div>
+                                        <div class="feedback__info-wrapper">
+                                            <h3 class="feedback__name">Name Surname</h3>
+                                            <p class="feedback__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi veritatis doloremque maiores repellendus! A, voluptas culpa accusantium laboriosam totam quasi.</p>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="teachers__slide slide">
+                                <div class="feedback">
+                                    <div class="feedback">
+                                        <div class="feedback__image-wrapper">
+                                            <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
+                                        </div>
+                                        <div class="feedback__info-wrapper">
+                                            <h3 class="feedback__name">Name Surname</h3>
+                                            <p class="feedback__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi veritatis doloremque maiores repellendus! A, voluptas culpa accusantium laboriosam totam quasi.</p>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="teachers__slide slide">
+                                <div class="feedback">
+                                    <div class="feedback">
+                                        <div class="feedback__image-wrapper">
+                                            <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
+                                        </div>
+                                        <div class="feedback__info-wrapper">
+                                            <h3 class="feedback__name">Name Surname</h3>
+                                            <p class="feedback__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi veritatis doloremque maiores repellendus! A, voluptas culpa accusantium laboriosam totam quasi.</p>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
 
-                        <div class="teachers__slide slide">
-                            <div class="feedback">
-                                <div class="feedback">
-                                    <h3 class="feedback__title">Name Surname</h3>
-                                    <div class="feedback__type-of-teach">
-                                        <p class="feedback__tag">ЕГЭ</p>
-                                        <p class="feedback__tag">Русский Язык</p>
-                                    </div>
-                                    <div class="feedback__image-wrapper">
-                                        <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
-                                    </div>
-                                    <p class="feedback__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque culpa voluptatem dolorum quo officia consectetur quos, possimus quod vel eligendi totam mollitia ad maxime quae delectus rerum laudantium fugit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="teachers__slide slide">
-                            <div class="feedback">
-                                <div class="feedback">
-                                    <h3 class="feedback__title">Name Surname</h3>
-                                    <div class="feedback__type-of-teach">
-                                        <p class="feedback__tag">ЕГЭ</p>
-                                        <p class="feedback__tag">Русский Язык</p>
-                                    </div>
-                                    <div class="feedback__image-wrapper">
-                                        <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
-                                    </div>
-                                    <p class="feedback__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque culpa voluptatem dolorum quo officia consectetur quos, possimus quod vel eligendi totam mollitia ad maxime quae delectus rerum laudantium fugit.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="teachers__slide slide">
-                            <div class="feedback">
-                                <div class="feedback">
-                                    <h3 class="feedback__title">Name Surname</h3>
-                                    <div class="feedback__type-of-teach">
-                                        <p class="feedback__tag">ЕГЭ</p>
-                                        <p class="feedback__tag">Русский Язык</p>
-                                    </div>
-                                    <div class="feedback__image-wrapper">
-                                        <img src="img/main/teachers/pic.png" width="275" height="275" alt="picture of teacher">
-                                    </div>
-                                    <p class="feedback__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque culpa voluptatem dolorum quo officia consectetur quos, possimus quod vel eligendi totam mollitia ad maxime quae delectus rerum laudantium fugit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
                     </div>
+                    
+                    
                 
                 </div>
                 
             </section>
 
-            <section class="main__faq fag">
+            <section class="main__faq fag" id="faq">
                 <div class="faq__wrapper container">
                     <h3 class="faq__title">FAQ</h3>
                     <ul class="faq__list">
@@ -670,7 +680,7 @@
         
         </main>
 
-        <footer class="page-footer footer">
+        <footer class="page-footer footer" id="footer">
             <div class="footer__wrapper container">
                 <div class="footer__social-links social-links">
                     <img src="../img/footer/logo.svg" alt="abc-logo">
@@ -705,13 +715,16 @@
                     </ul>
                 </div>
 
-                <div class="footer__navigation navigation">
-                    <h4 class="navigation__title">Навигация</h4>
-                    <ul class="navigation__list">
-                        <li class="catalog__item"><a href="#">О нас</a></li>
-                        <li class="catalog__item"><a href="#">Магазин упаковки</a></li>
-                        <li class="catalog__item"><a href="#">Индивидуальный дизайн</a></li>
-                        <li class="catalog__item"><a href="#">Доставка и оплата</a></li>
+                <div class="footer__partners partners">
+                    <h4 class="partners__title">Навигация</h4>
+                    <ul class="partners__list">
+                        <li class="partners__item"><a href="https://vk.com/vysshiyball">Ассоциация репетиторов «Высший балл»</a></li>
+                        <li class="partners__item"><a href="https://mediaohvat.ru/reklama_price/hroniki_ambera_g_sovetsk">Газета «Хроники Амбера» г. Советск</a></li>
+                        <li class="partners__item"><a href="https://vk.com/kni_lavka43">Магазин «Книжная лавка» г. Советск</a></li>
+                        <li class="partners__item"><a href="https://vk.com/molobrinno">ООО «Молодость Образование Инновации» г. Советск</a></li>
+                        <li class="partners__item"><a href="https://manfuture.ru/">Малая академия наук «Интеллект будущего» г. Обнинск</a></li>
+                        <li class="partners__item"><a href="https://vk.com/kolledgclub">ГБУ КО ПОО «Технологический колледж» г. Советск</a></li>
+                        <li class="partners__item"><a href="https://kku39.ru/college">АНПОО «Калининградский колледж управления» филиал г. Советск</a></li>
                     </ul>
                 </div>
 

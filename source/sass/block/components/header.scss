@@ -20,9 +20,19 @@
             display: flex;
             width: 385px;
             align-items: center;
-            background-color: $white;
             border-radius: 14px;
         }
         
+        &__navigation {
+            display: flex;
+            flex-direction: row;
+            padding: 10px 20px;
+        }
+        
+        &__item {
+            &:not(:last-child) {
+                margin-right: 35px;
+            }
+        }
     }
 }

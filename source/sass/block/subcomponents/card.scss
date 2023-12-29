@@ -1,17 +1,26 @@
 .card {
     position: relative;
-    width: 315px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 580px;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     border-radius: 16px;
     background: #d4d6fb;
-    cursor: pointer;
+    cursor: default;
     transition: all .3s;
 
-    &__wrapper {
+    &:hover {
+        //border: 2px solid #888df0;
+        box-shadow: 0px 2px 0px #888df0, 0px -2px 0px #888df0, 2px 0px 0px #888df0, -2px 0px 0px #888df0;
+    }
+
+    &__info-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        height: 455px;
     }
 
     &__title {
@@ -26,8 +35,8 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        width: 75%;
-        gap: 20px;
+        //width: 75%;
+        gap: 10px 20px;
         margin-bottom: 30px;
     }
 
@@ -44,9 +53,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 271px;
+        width: 310px;
+        height: 310px;
         margin-bottom: 30px;
+        margin: 0 auto;
 
         img {
             width: 100%;
@@ -91,12 +101,12 @@
         &__content {
             position: absolute;
             top: 0;
-            left: 20%;
-            width: 61%;
+            left: 10%;
+            width: 80%;
             display: flex;
             flex-direction: row;
             margin: 15% auto;
-            padding: 20px;
+            padding: 80px 30px;
             border: 1px solid #888;
             background-color: #d4d6fb;
             border-radius: 12px;
@@ -124,7 +134,7 @@
             }
         }
 
-        &__image-wrapper {
+        &__image-modal-wrapper {
             width: 50%;
             height: 100%;
             margin: 50px 50px 0 20px;
@@ -151,7 +161,7 @@
         }
 
         &__slogan {
-            font-size: 14px;
+            font-size: 17px;
             line-height: normal;
             margin-bottom: 30px;
         }
@@ -159,23 +169,29 @@
         &__achievements-wrapper {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            width: 40%;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            width: 80%;
             margin-bottom: 60px;
         }
 
         &__excellent {
+            width: 170px;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: flex-start;
             align-items: flex-start;
+
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
         }
 
         &__number {
             font-size: 32px;
             line-height: normal;
             font-weight: 800;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
         }
 
         &__description {
