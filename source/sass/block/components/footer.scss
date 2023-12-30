@@ -7,4 +7,81 @@
         flex-direction: row;
         justify-content: flex-start;
     }
+
+    .social-links {
+        width: 500px;
+        margin-right: 50px;
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            padding-left: 70px;
+        }
+
+        &__title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 340px;
+            margin-bottom: 25px;
+        }
+
+        &__description {
+            font-size: 14px;
+            line-height: normal;
+            padding-left: 70px;
+            margin-bottom: 15px;
+        }
+
+        &__logo {
+            margin-right: 20px;
+        }
+
+        &__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .navigation {
+        width: 200px;
+        margin-right: 50px;
+
+        &__item {
+            font-size: 14px;
+            line-height: normal;
+
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .partners {
+        width: 500px;
+        margin-right: 50px;
+        
+        &__item {
+            font-size: 14px;
+            line-height: normal;
+
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
 }

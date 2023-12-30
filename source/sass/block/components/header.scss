@@ -18,14 +18,16 @@
 
         &__title {
             display: flex;
-            width: 385px;
+            width: 240px;
             align-items: center;
+            margin-right: 20px;
             border-radius: 14px;
         }
         
         &__navigation {
             display: flex;
             flex-direction: row;
+            margin-right: 20px;
             padding: 10px 20px;
         }
         
