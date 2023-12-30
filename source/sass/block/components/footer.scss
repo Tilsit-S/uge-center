@@ -17,7 +17,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: flex-start;
-            padding-left: 70px;
+            padding: 10px 10px 10px 70px;
         }
 
         &__title {
@@ -74,10 +74,36 @@
     .partners {
         width: 500px;
         margin-right: 50px;
-        
+
         &__item {
             font-size: 14px;
             line-height: normal;
+
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .contacts {
+        width: 340px;
+        
+        &__item {
+
+            a {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                font-size: 14px;
+                line-height: normal;
+
+                svg {
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 15px;
+                }
+            }
 
             &:not(:last-child) {
                 margin-bottom: 15px;
