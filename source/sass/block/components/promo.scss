@@ -1,10 +1,26 @@
 .promo {
+    position: relative;
     margin: 250px 0 150px 0;
     padding: 50px 0;
 
+    &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: " ";
+        background-image: url("../img/main/students.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: -23px -36px;
+        width: 768px;
+        height: 959px;
+        z-index: -1;
+    }
+
     &__wrapper {
         display: flex;
-        justify-content: space-between;
+        //justify-content: space-between;
+        flex-direction: column;
         align-items: flex-start;
     }
 
@@ -37,7 +53,7 @@
     }
 
     &__description {
-        width: 365px;
+        width: 765px;
         font-weight: 800;
         font-size: 38px;
         line-height: 50px;
