@@ -1,0 +1,38 @@
+.price {
+    background-color: aqua;
+
+    &__wrapper {
+        padding: 100px 20px;
+        margin-bottom: 150px;
+        height: 500px;
+    }
+
+    &__tabs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1100px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    &__tab {
+        font-size: 36px;
+        line-height: normal;
+        font-weight: bold;
+    }
+
+    &__uge {
+        font-size: 24px;
+        line-height: normal;
+        display: none;
+
+        &:not(:last-child) {
+            margin-bottom: 50px;
+        }
+
+        &:target {
+            display: flex;
+        }
+    }
+}
