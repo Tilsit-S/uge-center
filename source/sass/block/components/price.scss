@@ -2,7 +2,7 @@
     //background-color: aqua;
 
     &__wrapper {
-        padding: 100px 0;
+        padding: 100px 0 0 0;
         margin-bottom: 150px;
     }
 
@@ -45,10 +45,63 @@
         padding: 100px 20px;
         border-radius: 0 4px 4px 4px;
         background: #e8e8ff;
+
+        &::after {
+            position: absolute;
+            bottom: -50px;
+            right: -75px;
+            content: " ";
+            background-image: url("../img/main/star.png");
+            background-size: 200px 180px;
+            width: 190px;
+            height: 180px;
+            -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+            z-index: 3;
+        }
     }
       
     .tabs-panel {
         display: none;
+    }
+
+    .tabs-panel:nth-child(2) .tabs-item {
+        background-color: #f39ddc;
+    }
+
+    .tabs-panel:nth-child(3) .tabs-list {
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        margin-bottom: 50px;
+    }
+
+    .tabs-panel:nth-child(3) h3 {
+        text-align: center;
+    }
+
+    .tabs-panel:nth-child(3) .tabs-item {
+        width: auto;
+        background-color: white;
+        border: 2px solid red;
+        color: tomato;
+        margin-bottom: 20px;
+    }
+
+    .tabs-panel:nth-child(3) .tabs-item:not(:last-child) {
+       margin-right: 20px;
+    }
+
+    .tabs-panel:nth-child(3) p {
+        font-size: 28px;
+        line-height: normal;
+        font-weight: 700;
+    }
+
+    .tabs-discount-reminder {
+        padding-left: 70px;
+        .achievements__max {
+            height: 50px;
+        }
     }
       
     .tabs-panel.active {
@@ -64,30 +117,43 @@
         flex-direction: column;
     }
 
+    .tabs-uge-price {
+        margin-bottom: 100px;
+    }
+
     .tabs-list {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        gap: 20px;
+        justify-content: space-around;
+        flex-wrap: nowrap;
     }
     
-    .uge-title {
-        font-size: 28px;
+    .uge-title,
+    .oge-title {
+        font-size: 37px;
         line-height: normal;
         font-weight: bold;
         text-align: center;
         margin-bottom: 50px;
 
         .achievements__max {
-            height: 50px;
+            height: 60px;
         }
     }
 
     .tabs-item {
         display: block;
+        width: 370px;
         padding: 30px 32px;
-        background-color: tomato;
+        background-color: #888df0;
         border: none;
         border-radius: 14px;
+    }
+
+    .tabs-sell {
+        font-size: 38px;
+        line-height: normal;
+        font-weight: bold;
+        margin-bottom: 15px;
     }
 }
