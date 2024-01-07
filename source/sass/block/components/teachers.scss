@@ -212,21 +212,140 @@
     
         /* Стрелка влево */
         .slick-arrow.slick-prev{
-            left: 50%;
-            background-image: url("../img/main/teachers/arrow.svg");
-            background-repeat: no-repeat;
+            left: -10px;
+            top: 83px;
+            z-index: 3;
             background-size: 35px 35px;
-            background-position: center;
-            transform: rotate(180deg);
         }
     
         /* Стрелка вправо */
         .slick-arrow.slick-next{
-            left: 57%;
-            background-image: url("../img/main/teachers/arrow.svg");
-            background-repeat: no-repeat;
+            left: 268px;
+            top: 83px;
+            z-index: 3;
             background-size: 35px 35px;
-            background-position: center;
+        }
+    
+        /* Стрелка не активная */
+        .slick-arrow.slick-disabled{}
+    
+        .slider .slick-arrow {
+            position: absolute;
+            top: 25%;
+            z-index: 10;
+        }
+    
+        .slider {
+            position: relative;
+        }
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .teachers {
+
+        h2 {
+            font-size: 29px;
+            margin-bottom: 30px;
+        }
+    
+        &__wrapper {
+            margin-bottom: 50px;
+        }
+    
+        &__list {
+            justify-content: center;
+            gap: 25px;
+            margin-bottom: 70px;
+        }
+
+        &__reviews-title {
+            font-size: 29px;
+            margin-bottom: 50px;
+        }
+    
+        /* -------------------------------Слайдер--------------------------------- */
+        .slick-slider{
+            position: relative;
+            height: 100%;
+            margin: 0 120px;
+    
+            @media (max-width: 1400px) {
+                margin: 0 100px;
+            }
+    
+            @media (max-width: 1200px) {
+                margin: 0 50px;
+            }
+    
+            @media (max-width: 1000px) {
+                margin: 0;
+            }
+        }
+    
+        /* Слайдер запущен */
+        .slick-slider.slick-initialized{}
+    
+        /* Слайдер с точками */
+        .slick-slider.slick-dotted{}
+    
+        /* Ограничивающая оболочка */
+        .slick-list {
+            overflow: hidden;
+            margin: 0 auto;
+        }
+    
+        /* Лента слайдов */
+        .slick-track{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+    
+        /* Слайд */
+        .slick-slide{
+            overflow: hidden;
+            height: auto;
+    
+            &:not(:first-child) {
+                margin-left: 30px;
+            }
+            
+            img {
+                width: 100%;
+                //height: 14.24vw;
+            }
+        }
+    
+        /* Стрелка */
+        .slick-arrow{
+            position: absolute;
+            bottom: -30px;
+            display: block;
+            width: 40px;
+            height: 40px;
+            font-size: 0;
+            border: none;
+            background-color: $black;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    
+        /* Стрелка влево */
+        .slick-arrow.slick-prev{
+            left: -10px;
+            top: 83px;
+            z-index: 3;
+            background-size: 35px 35px;
+        }
+    
+        /* Стрелка вправо */
+        .slick-arrow.slick-next{
+            left: 268px;
+            top: 83px;
+            z-index: 3;
+            background-size: 35px 35px;
         }
     
         /* Стрелка не активная */

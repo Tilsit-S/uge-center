@@ -123,3 +123,56 @@
         }
     }
 }
+
+@media (max-width: $mobile-width) {
+    .faq {
+    
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 50px 20px;
+            margin-bottom: 50px;
+        }
+    
+        &__title {
+            width: auto;
+            font-size: 29px;
+            margin: 0 0 15px 0;
+            padding: 0;
+            text-align: center;
+        }
+    
+        &__list {
+            width: 100%;
+            padding: 15px 10px;
+        }
+    
+        &__item {
+            &:not(:last-child) {
+                margin-bottom: 30px;
+            }
+    
+            .item {
+                &__link {
+                    display: block;
+                    width: 100%;
+                    padding: 8px 15px;
+                    font-size: 16px;
+                    line-height: normal;
+                }
+    
+                &__text-wrapper {
+                    display: none;
+                    margin-top: 20px;
+                    padding: 5px 30px;
+                }
+    
+                &__text {
+                    font-size: 14px;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

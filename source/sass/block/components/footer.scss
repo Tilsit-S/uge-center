@@ -112,3 +112,111 @@
         }
     }
 }
+
+@media (max-width: $mobile-width) {
+    .footer {
+        padding: 50px 10px;
+        
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    
+        .social-links {
+            width: 100%;
+            margin-right: 0;
+    
+            &__list {
+                padding: 10px 10px 10px 0;
+            }
+    
+            &__title {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+    
+            &__description {
+                font-size: 14px;
+                line-height: normal;
+                padding-left: 0;
+                margin-bottom: 10px;
+            }
+    
+            &__logo {
+                margin-right: 20px;
+            }
+    
+            &__item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 35px;
+                height: 35px;
+    
+                &:not(:last-child) {
+                    margin-right: 20px;
+                }
+    
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    
+        .navigation {
+            width: 200px;
+            margin-right: 50px;
+    
+            &__item {
+                font-size: 14px;
+                line-height: normal;
+    
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    
+        .partners {
+            width: 100%;
+            margin-right: 0;
+    
+            &__item {
+                font-size: 12px;
+                line-height: normal;
+    
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    
+        .contacts {
+            width: 340px;
+            
+            &__item {
+    
+                a {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    font-size: 14px;
+                    line-height: normal;
+    
+                    svg {
+                        width: 25px;
+                        height: 25px;
+                        margin-right: 15px;
+                    }
+                }
+    
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}
