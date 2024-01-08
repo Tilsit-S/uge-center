@@ -30,11 +30,13 @@
 @media (max-width: $tablet-width) {
     .feedback {
         padding: 15px 20px;
+        width: 365px;
     
         &__image-wrapper {
-            width: 220px;
-            height: 50px;
-            margin-right: 50px;
+            flex-shrink: 0;
+            width: 55px;
+            height: 55px;
+            margin-right: 15px;
     
             img {
                 width: 100%;
@@ -46,6 +48,11 @@
             font-size: 17px;
             line-height: normal;
             margin-bottom: 30px;
+        }
+
+        &__text {
+            font-size: 13px;
+            line-height: normal;
         }
     }
 }
