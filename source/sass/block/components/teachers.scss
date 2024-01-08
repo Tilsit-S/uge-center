@@ -64,50 +64,7 @@
         
         img {
             width: 100%;
-            //height: 14.24vw;
         }
-    }
-
-    /* Стрелка */
-    .slick-arrow{
-        position: absolute;
-        bottom: -30px;
-        display: block;
-        width: 40px;
-        height: 40px;
-        font-size: 0;
-        border: none;
-        background-color: $black;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-
-    /* Стрелка влево */
-    .slick-arrow.slick-prev{
-        left: 50%;
-        background-image: url("../img/main/teachers/arrow.svg");
-        background-repeat: no-repeat;
-        background-size: 35px 35px;
-        background-position: center;
-        transform: rotate(180deg);
-    }
-
-    /* Стрелка вправо */
-    .slick-arrow.slick-next{
-        left: 57%;
-        background-image: url("../img/main/teachers/arrow.svg");
-        background-repeat: no-repeat;
-        background-size: 35px 35px;
-        background-position: center;
-    }
-
-    /* Стрелка не активная */
-    .slick-arrow.slick-disabled{}
-
-    .slider .slick-arrow {
-        position: absolute;
-        top: 25%;
-        z-index: 10;
     }
 
     .slider {
@@ -192,47 +149,16 @@
             
             img {
                 width: 100%;
-                //height: 14.24vw;
             }
         }
-    
-        /* Стрелка */
-        .slick-arrow{
-            position: absolute;
-            bottom: -30px;
-            display: block;
-            width: 40px;
-            height: 40px;
-            font-size: 0;
-            border: none;
-            background-color: $black;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-    
-        /* Стрелка влево */
-        .slick-arrow.slick-prev{
-            left: -10px;
-            top: 83px;
-            z-index: 3;
-            background-size: 35px 35px;
-        }
-    
-        /* Стрелка вправо */
-        .slick-arrow.slick-next{
-            left: 268px;
-            top: 83px;
-            z-index: 3;
-            background-size: 35px 35px;
-        }
-    
-        /* Стрелка не активная */
-        .slick-arrow.slick-disabled{}
-    
-        .slider .slick-arrow {
-            position: absolute;
-            top: 25%;
-            z-index: 10;
+
+        .slick-dots{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 148px;
+            margin: 0 auto;
         }
     
         .slider {
@@ -314,47 +240,7 @@
             
             img {
                 width: 100%;
-                //height: 14.24vw;
             }
-        }
-    
-        /* Стрелка */
-        .slick-arrow{
-            position: absolute;
-            bottom: -30px;
-            display: block;
-            width: 40px;
-            height: 40px;
-            font-size: 0;
-            border: none;
-            background-color: $black;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-    
-        /* Стрелка влево */
-        .slick-arrow.slick-prev{
-            left: -10px;
-            top: 83px;
-            z-index: 3;
-            background-size: 35px 35px;
-        }
-    
-        /* Стрелка вправо */
-        .slick-arrow.slick-next{
-            left: 268px;
-            top: 83px;
-            z-index: 3;
-            background-size: 35px 35px;
-        }
-    
-        /* Стрелка не активная */
-        .slick-arrow.slick-disabled{}
-    
-        .slider .slick-arrow {
-            position: absolute;
-            top: 25%;
-            z-index: 10;
         }
     
         .slider {

@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.teachers__slider').slick({
-        arrows: true,
-        dots: false,
+        arrows: false,
+        dots: true,
         variableWidth: true,
         adaptiveHeight: true,
         infinite: false,
